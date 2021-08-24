@@ -30,6 +30,7 @@ Rest trabalha em cima do protocolo http
 - virtualenv --python=python3.9 venv
 - source venv/bin/activate 
 - pip install django djangorestframework
+- (para rodar os requirements) pip freeze > requirements.txt
 
 
 # Aula 2
