@@ -39,3 +39,9 @@ Rest trabalha em cima do protocolo http
 - sobrenome
 - email
 - senha
+
+#Aula 3
+
+httpbin.org - ajuda com requisições http. No postman passo o httpbun.org/get ou qualquer outro verbo
+
+- Fazer Paginação
