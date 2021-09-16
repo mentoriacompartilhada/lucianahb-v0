@@ -44,4 +44,10 @@ Rest trabalha em cima do protocolo http
 
 httpbin.org - ajuda com requisições http. No postman passo o httpbun.org/get ou qualquer outro verbo
 
-- Fazer Paginação
+- Fazer Paginação (commit Gui)
+
+#Aula 4
+- Baixar Postman
+- https://randomuser.me/
+- WSL: Windows subsystem for linux
+- windows terminal (posso trocar entre terminais - bash, powershell)
