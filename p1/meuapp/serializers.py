@@ -1,9 +1,9 @@
-from .models import Client
+from .models import Pessoas
 from rest_framework import serializers
 
-class ClientSerializer(serializers.ModelSerializer):
+class PessoasSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Client
+        model = Pessoas
         fields = '__all__'
         # fields = '__all__' é igual a exlude = [],
         # mas só posso usar 1 ou outro

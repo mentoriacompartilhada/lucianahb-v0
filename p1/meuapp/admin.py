@@ -1,8 +1,8 @@
 from django.contrib import admin
-from .models import Client
+from .models import Pessoas
 
 
-class ClientAdmin(admin.ModelAdmin):
+class PessoasAdmin(admin.ModelAdmin):
     list_display = ('name', 'last_name')
 
-admin.site.register(Client, ClientAdmin)
+admin.site.register(Pessoas, PessoasAdmin)

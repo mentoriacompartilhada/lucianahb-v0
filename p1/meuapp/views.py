@@ -2,47 +2,47 @@
 from django.db.models import query
 from django.http import HttpResponse
 from rest_framework import viewsets
-from .serializers import ClientSerializer
-from .models import Client
+from .serializers import PessoasSerializer
+from .models import Pessoas
 
 
 def hello_world(request):
     return HttpResponse("Hello World")
 
 
-class ClientViewSet (viewsets.ModelViewSet):
-    queryset = Client.objects.all().order_by('name')
-    serializer_class = ClientSerializer
+class PessoasViewSet (viewsets.ModelViewSet):
+    queryset = Pessoas.objects.all().order_by('name')
+    serializer_class = PessoasSerializer
 
 # from rest_framework.generics import ListAPIView, CreateAPIView, UpdateAPIView, RetrieveAPIView, DestroyAPIView
 
-# class ClientListView(ListAPIView):
-#     queryset = Client.objects.all()
-#     serializer_class = ClientSerializer
+# class PessoasListView(ListAPIView):
+#     queryset = Pessoas.objects.all()
+#     serializer_class = PessoasSerializer
 
 
-# class ClientCreateView(CreateAPIView):
-#     queryset = Client.objects.all()
-#     serializer_class = ClientSerializer
+# class PessoasCreateView(CreateAPIView):
+#     queryset = Pessoas.objects.all()
+#     serializer_class = PessoasSerializer
 
 
-# class ClientUpdateView(UpdateAPIView):
-#     queryset = Client.objects.all()
-#     serializer_class = ClientSerializer
+# class PessoasUpdateView(UpdateAPIView):
+#     queryset = Pessoas.objects.all()
+#     serializer_class = PessoasSerializer
 
 
-# class ClientRetrieveView(RetrieveAPIView):
-#     queryset = Client.objects.all()
-#     serializer_class = ClientSerializer
+# class PessoasRetrieveView(RetrieveAPIView):
+#     queryset = Pessoas.objects.all()
+#     serializer_class = PessoasSerializer
 
 
-# class ClientDestroyView(DestroyAPIView):
-#     queryset = Client.objects.all()
-#     serializer_class = ClientSerializer
+# class PessoasDestroyView(DestroyAPIView):
+#     queryset = Pessoas.objects.all()
+#     serializer_class = PessoasSerializer
 
 
-# client = ClientListView.as_view()
-# client = ClientCreateView.as_view()
-# client = ClientUpdateView.as_view()
-# client = ClientRetrieveView.as_view()
-# client = ClientDestroyView.as_view()
+# pessoas = PessoasListView.as_view()
+# pessoas = PessoasCreateView.as_view()
+# pessoas = PessoasUpdateView.as_view()
+# pessoas = PessoasRetrieveView.as_view()
+# pessoas = PessoasDestroyView.as_view()
