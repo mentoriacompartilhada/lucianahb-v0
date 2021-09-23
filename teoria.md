@@ -51,3 +51,9 @@ httpbin.org - ajuda com requisições http. No postman passo o httpbun.org/get o
 - https://randomuser.me/
 - WSL: Windows subsystem for linux
 - windows terminal (posso trocar entre terminais - bash, powershell)
+
+
+#Aula 5 (22/09/2021)
+ - Continuação em paginação
+ - Acompanhar commits de hoje no projeto do Gui
+> Pequisar - Hateoas (REST API)
