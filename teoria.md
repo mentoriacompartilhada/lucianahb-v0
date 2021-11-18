@@ -57,3 +57,15 @@ httpbin.org - ajuda com requisições http. No postman passo o httpbun.org/get o
  - Continuação em paginação
  - Acompanhar commits de hoje no projeto do Gui
 > Pequisar - Hateoas (REST API)
+
+
+#Aula 6 (17/11/2021)
+
+##Manipulação de Arquivos
+ - antes de ler um arquivo, checar se ele existe
+ - se for escrever um arquivo, ver se tenho permissão
+ - escrever em pasta, ver se ela existe
+ - import os, 'r', 'w', 'a', 'x'
+ 
+ - \r carriage return (Unix) e \n carriage return line feed
+    - Como o nome diz o CR faz voltar para o início da linha e o LF é para ir para a próxima linha.
